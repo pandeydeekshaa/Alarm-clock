@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+  
+  input[type="time"] {
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #080320;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #alarmStatus {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .backvideo{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 30%;
+  }
+
+  @media (min-aspect-ratio: 16/9){
+    .backvideo{
+      width: 100%;
+      height: auto;
+    }
+  }

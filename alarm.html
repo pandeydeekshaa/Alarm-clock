@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" type="text/css" href="alarm1.css">
+</head>
+<body bgcolor="aqua">
+  <div class="container">
+    <video autoplay muted loop id="myVideo" class="backvideo">
+      <source src="clock.mp4" type="video/mp4">
+    </video><br><br><br><br><br><br><br><br>
+    <p style="font-size: 50px; color:rgb(5, 2, 18)"><b>Alarm Clock</b></p>
+    <input type="time" id="alarmTime">
+    <button onclick="setAlarm()">Set Alarm</button>
+    <button onclick="clearAlarm()">Clear Alarm</button>
+    <div id="alarmStatus"></div>
+  </div>
+
+  <audio id="alarmSound" src="alarm.mp3.wav" preload="auto"></audio>
+  <script src="alarm1.js"></script>
+</body>
+</html>
+
